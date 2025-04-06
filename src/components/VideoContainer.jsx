@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { YT_POPULAR_API } from '../utils/constants';
 import VideoCard from './VideoCard';
 import './VideoContainer.css';
+import { Link } from 'react-router-dom';
 
 const VideoContainer = () => {
   const [videos,setVideos] = useState([]);
@@ -19,7 +20,11 @@ const VideoContainer = () => {
   };
   console.log(videos);
   return (
-    <div className='video-container'>{popularAPImock.items.map(item=><VideoCard key={item.id} info={item}/>)}</div>
+    <div className='video-container'>
+      {popularAPImock.items.map(item=>
+        <Link to={"/watch?v="+item.id}><VideoCard key={item.id} info={item}/></Link>
+      )}
+    </div>
   )
 }
 
