@@ -1,0 +1,30 @@
+.menu-icon{
+    height: 3rem;
+    cursor: pointer;
+}
+.video-icon{
+    height: 4rem;
+    cursor: pointer;
+}
+
+.header-container{
+    display: inline-flex;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;}
+
+.search-bar{
+    width: 66.66%;
+    border-radius: 10px 0 0 10px;
+}
+
+.search-button{
+    border-radius: 0px 10px 10px 0px;
+}
+
+.col-2{
+    width: 20%;
+}
+
+.col-8{
+    width: 66.66%;
+}

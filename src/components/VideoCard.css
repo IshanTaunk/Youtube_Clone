@@ -1,0 +1,15 @@
+.thumb-image{
+    height: 17rem;
+    border-radius: 10px;
+}
+
+.video-title{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 600;    
+}
+
+.video-card-container{
+    max-width: 25rem;
+    padding: 1rem;
+}

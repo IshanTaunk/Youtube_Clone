@@ -1,0 +1,7 @@
+.button-list-item{
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    background-color: lightgray;
+    border-radius: 5px;
+    border: none;
+}
