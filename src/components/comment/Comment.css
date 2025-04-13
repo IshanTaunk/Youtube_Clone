@@ -1,0 +1,27 @@
+.comment-username{
+    font-weight: 600;
+    margin-right: 0.5rem;
+}
+
+.comment-container{
+    margin-bottom: 1rem;
+    background-color: rgb(233, 233, 233);
+    padding: 0.5rem;
+    border-radius: 5px;
+    display: flex;
+}
+
+.comment-time{
+    font-size: 12px;
+    color: grey;
+}
+
+.comment-children{
+    padding-left: 2rem;
+    border-left: 2px solid grey;
+}
+
+.comment-icon{
+    width: 2rem;
+    margin-right: 0.5rem;
+}
